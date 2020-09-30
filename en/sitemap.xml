@@ -168,6 +168,16 @@
   </url>
   
   <url>
+    <loc>https://open-neuroscience.com/en/tags/computational-neuroscience/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/computational-neuroscience/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://open-neuroscience.com/en/tags/computers/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
@@ -188,7 +198,77 @@
   </url>
   
   <url>
+    <loc>https://open-neuroscience.com/en/tags/data-analysis-tutorials-learning-portals/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/data-analysis-tutorials-learning-portals/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/tags/data-repositories/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/data-repositories/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://open-neuroscience.com/en/post/fasttrack/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/tags/human-electrophysiology/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/human-electrophysiology/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/tags/human-neuroscience/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/human-neuroscience/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/post/incf_knowledgespace/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/post/incf_neurostars/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/post/incf_portal/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/post/incf_trainingspace/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/tags/other/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/other/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -205,6 +285,16 @@
                 hreflang="en"
                 href="https://open-neuroscience.com/en/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/tags/simulations/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/en/categories/simulations/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -233,37 +323,17 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/en/tags/computational-neuroscience/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+    <loc>https://open-neuroscience.com/en/tags/tutorials-learning-portals/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/en/categories/computational-neuroscience/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/tags/human-neuroscience/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/human-neuroscience/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+    <loc>https://open-neuroscience.com/en/categories/tutorials-learning-portals/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/en/post/open_source_brain/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/tags/simulations/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/simulations/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,16 +428,6 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/en/tags/tutorials-learning-portals/</loc>
-    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/tutorials-learning-portals/</loc>
-    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/en/post/wholebrain/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
@@ -413,16 +473,6 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/en/tags/other/</loc>
-    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/other/</loc>
-    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/en/post/pidose/</loc>
     <lastmod>2020-07-30T00:00:00+00:00</lastmod>
   </url>
@@ -440,16 +490,6 @@
   <url>
     <loc>https://open-neuroscience.com/en/post/sleap/</loc>
     <lastmod>2020-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/tags/data-repositories/</loc>
-    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/data-repositories/</loc>
-    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -584,16 +624,6 @@
   
   <url>
     <loc>https://open-neuroscience.com/en/post/deeplabcut/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/tags/human-electrophysiology/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/en/categories/human-electrophysiology/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
