@@ -5,7 +5,7 @@
     <link>https://open-neuroscience.com/en/categories/human-ephys/</link>
       <atom:link href="https://open-neuroscience.com/en/categories/human-ephys/index.xml" rel="self" type="application/rss+xml" />
     <description>Human ephys</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://open-neuroscience.com/media/openneuroscience_logo_dark.svg</url>
       <title>Human ephys</title>
@@ -17,8 +17,7 @@
       <link>https://open-neuroscience.com/en/post/brainflow/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/brainflow/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://brainflow.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainFlow&lt;/a&gt; BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors, it provides two APIs:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://brainflow.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainFlow&lt;/a&gt; BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors, it provides two APIs:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Data Acquisition API to obtain data from BCI boards&lt;/li&gt;
 &lt;li&gt;Signal Processing API which is completely independent and can be used without Data Acquisition API&lt;/li&gt;
@@ -33,8 +32,7 @@
 &lt;li&gt;R&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;And provides almost the same API for all languages above.&lt;/p&gt;
-&lt;p&gt;Check 
-&lt;a href=&#34;https://brainflow.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainFlow Docs&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Check &lt;a href=&#34;https://brainflow.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainFlow Docs&lt;/a&gt; for details.&lt;/p&gt;
 </description>
     </item>
     
@@ -43,10 +41,8 @@
       <link>https://open-neuroscience.com/en/post/attys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/attys/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.attys.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Attys&lt;/a&gt; is an wearable data acquisition device with a special focus on biomedical signals such as heart activity (ECG), muscle activity (EMG) and brain activity (EEG). It’s open firmware, open API and has open source applications on github in C++ and JAVA to encourage people to create their own custom versions for mobile devices, tablets and PC.&lt;/p&gt;
-&lt;p&gt;The story of the Attys started when Dr. Bernd Porr filmed numerous youTube clips to educate the public about the possibilities and limits of biosignal measurement (&lt;a href=&#34;http://biosignals.berndporr.me.uk&#34;&gt;http://biosignals.berndporr.me.uk&lt;/a&gt;) which are featured here: 
-&lt;a href=&#34;http://openeuroscience.com/hardware-projects/human-electrophysiology/bio-signal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BPM link&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.attys.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Attys&lt;/a&gt; is an wearable data acquisition device with a special focus on biomedical signals such as heart activity (ECG), muscle activity (EMG) and brain activity (EEG). It’s open firmware, open API and has open source applications on github in C++ and JAVA to encourage people to create their own custom versions for mobile devices, tablets and PC.&lt;/p&gt;
+&lt;p&gt;The story of the Attys started when Dr. Bernd Porr filmed numerous youTube clips to educate the public about the possibilities and limits of biosignal measurement (&lt;a href=&#34;http://biosignals.berndporr.me.uk&#34;&gt;http://biosignals.berndporr.me.uk&lt;/a&gt;) which are featured here: &lt;a href=&#34;http://openeuroscience.com/hardware-projects/human-electrophysiology/bio-signal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BPM link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The site has been very popular ever since and visitors have been asking if a ready made bio-amp could be made available. This year Dr. Porr then decided to make one. This was the birth of the Attys.&lt;/p&gt;
 &lt;p&gt;Attys is also a general educational tool to measure any physical quantity such as temperature, pressure or light intensity. It works with Google’s open source Science Journal and turns every Android phone or tablet into an electronic lab book / oscilloscope. Of course one can measure biosignals with it, too.&lt;/p&gt;
 &lt;p&gt;Vasso Georgiadou has been the main presenter for our biosignal channel. Here, she shows off the Attys:&lt;/p&gt;
@@ -60,8 +56,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/bpm_biosignal/</guid>
       <description>&lt;p&gt;BPM Biosignal is a two stage amplifier created mainly for educational purposes.&lt;/p&gt;
-&lt;p&gt;Check their 
-&lt;a href=&#34;https://www.youtube.com/c/BPMbiosignals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube Channel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check their &lt;a href=&#34;https://www.youtube.com/c/BPMbiosignals&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube Channel&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -70,8 +65,7 @@
       <link>https://open-neuroscience.com/en/post/brain_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/brain_map/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2012/pmd68_mab448/pmd68_mab448/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainMap&lt;/a&gt; expands the accessible DIY projects for brain activity measurements.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2012/pmd68_mab448/pmd68_mab448/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrainMap&lt;/a&gt; expands the accessible DIY projects for brain activity measurements.&lt;/p&gt;
 &lt;p&gt;This is the conclusion project of Patrick Dear and Mark Bunney Jr. at Cornell university where they used infrared leds to measure differences in blood flow at the scalp and map the motor cortex.&lt;/p&gt;
 </description>
     </item>
@@ -104,11 +98,8 @@ designed under electrical safety standards for medical use (electrical insulatio
       <link>https://open-neuroscience.com/en/post/open-bci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/open-bci/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://openbci.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenBCI&lt;/a&gt; is a complete open source EEG system that can be built either on top of an Arduino (8-bit system), or on top of chipKIT (32-bit system), which gives the system more local memory and allows for faster speeds.&lt;/p&gt;
-&lt;p&gt;All software code and hardware (including a model for a 3D printable headset) plans can be found freely available at their 
-&lt;a href=&#34;https://openbci.com/index.php/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download section&lt;/a&gt; or at 
-&lt;a href=&#34;https://github.com/OpenBCI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://openbci.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenBCI&lt;/a&gt; is a complete open source EEG system that can be built either on top of an Arduino (8-bit system), or on top of chipKIT (32-bit system), which gives the system more local memory and allows for faster speeds.&lt;/p&gt;
+&lt;p&gt;All software code and hardware (including a model for a 3D printable headset) plans can be found freely available at their &lt;a href=&#34;https://openbci.com/index.php/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download section&lt;/a&gt; or at &lt;a href=&#34;https://github.com/OpenBCI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -117,13 +108,9 @@ designed under electrical safety standards for medical use (electrical insulatio
       <link>https://open-neuroscience.com/en/post/open_eeg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/open_eeg/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;http://openeeg.sourceforge.net/doc/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The openEEG&lt;/a&gt; project aims at describing and putting manuals for building a two channel EEG system for about U$200.
-More on instructions on how to build one, can be found 
-&lt;a href=&#34;http://openeeg.sourceforge.net/doc/SimpleEEG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The latest update on the page seems to be a bit old, but Olimex sells the necessary PCB boards and accessories to 
-&lt;a href=&#34;https://www.olimex.com/Products/EEG/OpenEEG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;build the device&lt;/a&gt;. They also sell the 
-&lt;a href=&#34;https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/open-source-hardware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openEEG completely assembled&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://openeeg.sourceforge.net/doc/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The openEEG&lt;/a&gt; project aims at describing and putting manuals for building a two channel EEG system for about U$200.
+More on instructions on how to build one, can be found &lt;a href=&#34;http://openeeg.sourceforge.net/doc/SimpleEEG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The latest update on the page seems to be a bit old, but Olimex sells the necessary PCB boards and accessories to &lt;a href=&#34;https://www.olimex.com/Products/EEG/OpenEEG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;build the device&lt;/a&gt;. They also sell the &lt;a href=&#34;https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/open-source-hardware&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openEEG completely assembled&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -133,8 +120,7 @@ More on instructions on how to build one, can be found
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/open_exg/</guid>
       <description>&lt;p&gt;OpenHardwareExG: is a project that provides both open source hardware and software for the measurement and analysis of different types of biosignals&lt;/p&gt;
-&lt;p&gt;From the 
-&lt;a href=&#34;http://openelectronicslab.github.io/OpenHardwareExG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project page&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From the &lt;a href=&#34;http://openelectronicslab.github.io/OpenHardwareExG/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project page&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;About the OpenHardwareExG project
 Project goals
 The main goal of the project is to build a device that allows the creation of electrophysiologic signal processing applications. In addition:

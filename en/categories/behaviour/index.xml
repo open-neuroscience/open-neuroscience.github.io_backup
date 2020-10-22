@@ -5,7 +5,7 @@
     <link>https://open-neuroscience.com/en/categories/behaviour/</link>
       <atom:link href="https://open-neuroscience.com/en/categories/behaviour/index.xml" rel="self" type="application/rss+xml" />
     <description>Behaviour</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://open-neuroscience.com/media/openneuroscience_logo_dark.svg</url>
       <title>Behaviour</title>
@@ -427,16 +427,12 @@ Matias Andina&lt;/p&gt;
 &lt;li&gt;2x or 4x weak magnets to fix the tubes to the walls.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Feel free to access the 
-&lt;a href=&#34;https://github.com/jjballesteros/Arduino-AutoReward&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; page or the 
-&lt;a href=&#34;http://forum.arduino.cc/index.php?topic=476643.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arduino forum post&lt;/a&gt; to obtain the &lt;strong&gt;code&lt;/strong&gt;, check for the circuit &lt;strong&gt;sketch&lt;/strong&gt;, and see some &lt;strong&gt;pictures&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Feel free to access the &lt;a href=&#34;https://github.com/jjballesteros/Arduino-AutoReward&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; page or the &lt;a href=&#34;http://forum.arduino.cc/index.php?topic=476643.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arduino forum post&lt;/a&gt; to obtain the &lt;strong&gt;code&lt;/strong&gt;, check for the circuit &lt;strong&gt;sketch&lt;/strong&gt;, and see some &lt;strong&gt;pictures&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;PD: If someone is scandalized by the code, I am getting better on it, it is not my main strength. Please, improve it! Of course, I have in mind many possible upgrades such as a screen, a SD card port, to change the Keypad for a wireless interface (tactile?) … Did someone say smartphone plus Bluetooth? Going fancy, a barcode reader to easily introduce subjects’ data… And here is where I relay in the open-access idea, I offer it and hopefully someone implement any of the ideas. If so, remember to share!&lt;/p&gt;
 &lt;p&gt;Jesús J. Ballesteros&lt;/p&gt;
 &lt;p&gt;Contact me:&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://twitter.com/jjballesterosc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.researchgate.net/profile/J_J_Ballesteros&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ResearchGate&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/jjballesterosc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/J_J_Ballesteros&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ResearchGate&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -445,11 +441,8 @@ Matias Andina&lt;/p&gt;
       <link>https://open-neuroscience.com/en/post/skinnerbox_rpi_python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/skinnerbox_rpi_python/</guid>
-      <description>&lt;p&gt;This project was developed by 
-&lt;a href=&#34;http://www.kscottz.com/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Katherine Scott&lt;/a&gt; to be presented at the PyCon 2014. She developed a skinner box for her pet rats using a raspberry pi and some 3D printed parts. The setup contain a food dispenser, a buzzer, levers, a camera to observe the animals and it is hooked in a way that everything can be controlled over the internet!&lt;/p&gt;
-&lt;p&gt;You can find the files for 3D parts 
-&lt;a href=&#34;http://www.thingiverse.com/thing:296335&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and a better description of the project 
-&lt;a href=&#34;http://www.kscottz.com/open-skinner-box-pycon-2014/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;This project was developed by &lt;a href=&#34;http://www.kscottz.com/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Katherine Scott&lt;/a&gt; to be presented at the PyCon 2014. She developed a skinner box for her pet rats using a raspberry pi and some 3D printed parts. The setup contain a food dispenser, a buzzer, levers, a camera to observe the animals and it is hooked in a way that everything can be controlled over the internet!&lt;/p&gt;
+&lt;p&gt;You can find the files for 3D parts &lt;a href=&#34;http://www.thingiverse.com/thing:296335&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and a better description of the project &lt;a href=&#34;http://www.kscottz.com/open-skinner-box-pycon-2014/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;iframe width=&#34;790&#34; height=&#34;444&#34; src=&#34;https://www.youtube.com/embed/grMfIoDgn9M&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt; &lt;/p&gt;

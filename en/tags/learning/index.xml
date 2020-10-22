@@ -5,7 +5,7 @@
     <link>https://open-neuroscience.com/en/tags/learning/</link>
       <atom:link href="https://open-neuroscience.com/en/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://open-neuroscience.com/media/openneuroscience_logo_dark.svg</url>
       <title>Learning</title>
@@ -37,35 +37,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/webportals/</guid>
       <description>&lt;p&gt;Here are some open learning sources, they go from sites that interactively teach one how to code, to efforts in publishing free college textbooks.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.khanacademy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Khan Academy&lt;/a&gt;: Is composed of a series of lectures and exercises on a wide range of topics from basic multiplication to linear algebra and information theory. A great place to learn those things you missed in high school.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://openstaxcollege.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Openstax College:&lt;/a&gt; is an initiative that is producing free, downloadable college level textbooks initially in sociology, physics, biology and anatomy and Physiology.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.codecademy.com/#!/exercises/0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CodeAcademy:&lt;/a&gt; Teaches several programming languages, including python, javascript, etc. in an interactive manner. From the first lesson one is already writing meaningful code to solve exercises.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://software-carpentry.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Carpentry:&lt;/a&gt; Is a project that helps scientists to write better code and increase their productivity by teaching them basic computing skills, such as version control, database systems, code with proper documentation and so on. They offer bootcamps, so check their website to see if there are any near you!&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.code.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code.org:&lt;/a&gt; Aims to teach programming to everyone, by putting learning sources together, such as codeacademy, khanacademy and so on. Considering that mostly everything now days is run by a computer, this is a great idea.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.edx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;edx.org&lt;/a&gt;: An initiative from Harvard and MIT to make their lectures (and from other universities) available free online, the nice thing is that they range from humanities to computer science, meaning that this is useful event if it is only for you to go a little bit depeer into that “old forgotten hobby/interest in something that is not neuroscience” you once had.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.coursera.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coursera&lt;/a&gt;: Aggregates online courses from several universities. It offers certificates for people who complete the courses.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.sparkfun.com/static/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sparkfun&lt;/a&gt; is a retail store that sells eletronic components for hobbyists and DIY enthusiasts. But they also keep a very useful 
-&lt;a href=&#34;https://learn.sparkfun.com/tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial section&lt;/a&gt; where one can find lessons on basic eletronics, installing arduino libraries, infrared communication, and designing PCB boards.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.openoptogenetics.org/index.php?title=Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenOptogenetics:&lt;/a&gt; is a wiki page designed to promote knowledge and know-how exchange for optogenetic applications.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://openwetware.org/wiki/Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Wetware wiki&lt;/a&gt; is a page dedicated to gathering information and know-how in biology and biological engineering. They provide a place to organize your own information, store labnotebooks and collaborate with other individuals. There is an article released in Nature (2008) about 
-&lt;a href=&#34;http://www.nature.com/news/2008/080903/full/455022a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this project.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://arxiv.org/abs/1403.7439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenPicoAmp&lt;/a&gt;: is an open source planar lipid bilayer amplifier designed to teach undergrad students about electro-chemical properties of membranes. A paper describing the project, together with bill of materials and more can be found 
-&lt;a href=&#34;http://arxiv.org/abs/1403.7439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; (for some reason this link did not open on Firefox. Try Chromium or Chrome instead). Also, a description on thingiverse can found 
-&lt;a href=&#34;http://www.thingiverse.com/thing:292678&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://www.pyroelectro.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyroElectro&lt;/a&gt;: a page for electronics and robotics enthusiasts, they have 
-&lt;a href=&#34;http://www.pyroelectro.com/edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorials on several topics&lt;/a&gt;, such as modern electronics. microcontrollers and FPGA.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.khanacademy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Khan Academy&lt;/a&gt;: Is composed of a series of lectures and exercises on a wide range of topics from basic multiplication to linear algebra and information theory. A great place to learn those things you missed in high school.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://openstaxcollege.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Openstax College:&lt;/a&gt; is an initiative that is producing free, downloadable college level textbooks initially in sociology, physics, biology and anatomy and Physiology.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.codecademy.com/#!/exercises/0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CodeAcademy:&lt;/a&gt; Teaches several programming languages, including python, javascript, etc. in an interactive manner. From the first lesson one is already writing meaningful code to solve exercises.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://software-carpentry.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Software Carpentry:&lt;/a&gt; Is a project that helps scientists to write better code and increase their productivity by teaching them basic computing skills, such as version control, database systems, code with proper documentation and so on. They offer bootcamps, so check their website to see if there are any near you!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.code.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code.org:&lt;/a&gt; Aims to teach programming to everyone, by putting learning sources together, such as codeacademy, khanacademy and so on. Considering that mostly everything now days is run by a computer, this is a great idea.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.edx.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;edx.org&lt;/a&gt;: An initiative from Harvard and MIT to make their lectures (and from other universities) available free online, the nice thing is that they range from humanities to computer science, meaning that this is useful event if it is only for you to go a little bit depeer into that “old forgotten hobby/interest in something that is not neuroscience” you once had.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coursera&lt;/a&gt;: Aggregates online courses from several universities. It offers certificates for people who complete the courses.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sparkfun.com/static/about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sparkfun&lt;/a&gt; is a retail store that sells eletronic components for hobbyists and DIY enthusiasts. But they also keep a very useful &lt;a href=&#34;https://learn.sparkfun.com/tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial section&lt;/a&gt; where one can find lessons on basic eletronics, installing arduino libraries, infrared communication, and designing PCB boards.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.openoptogenetics.org/index.php?title=Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenOptogenetics:&lt;/a&gt; is a wiki page designed to promote knowledge and know-how exchange for optogenetic applications.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://openwetware.org/wiki/Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Wetware wiki&lt;/a&gt; is a page dedicated to gathering information and know-how in biology and biological engineering. They provide a place to organize your own information, store labnotebooks and collaborate with other individuals. There is an article released in Nature (2008) about &lt;a href=&#34;http://www.nature.com/news/2008/080903/full/455022a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this project.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://arxiv.org/abs/1403.7439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenPicoAmp&lt;/a&gt;: is an open source planar lipid bilayer amplifier designed to teach undergrad students about electro-chemical properties of membranes. A paper describing the project, together with bill of materials and more can be found &lt;a href=&#34;http://arxiv.org/abs/1403.7439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; (for some reason this link did not open on Firefox. Try Chromium or Chrome instead). Also, a description on thingiverse can found &lt;a href=&#34;http://www.thingiverse.com/thing:292678&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pyroelectro.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyroElectro&lt;/a&gt;: a page for electronics and robotics enthusiasts, they have &lt;a href=&#34;http://www.pyroelectro.com/edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorials on several topics&lt;/a&gt;, such as modern electronics. microcontrollers and FPGA.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </description>
     </item>

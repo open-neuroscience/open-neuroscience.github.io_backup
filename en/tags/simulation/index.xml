@@ -5,7 +5,7 @@
     <link>https://open-neuroscience.com/en/tags/simulation/</link>
       <atom:link href="https://open-neuroscience.com/en/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <description>Simulation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://open-neuroscience.com/media/openneuroscience_logo_dark.svg</url>
       <title>Simulation</title>
@@ -17,8 +17,7 @@
       <link>https://open-neuroscience.com/en/post/green-brain/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/green-brain/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;http://greenbrain.group.shef.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Green Brain project&lt;/a&gt; wants to create an artificial &lt;em&gt;Apis mellifera&lt;/em&gt; brain and implement said brain into a robot, that will be able to fly and and behave just like a honey bee!&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://greenbrain.group.shef.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Green Brain project&lt;/a&gt; wants to create an artificial &lt;em&gt;Apis mellifera&lt;/em&gt; brain and implement said brain into a robot, that will be able to fly and and behave just like a honey bee!&lt;/p&gt;
 &lt;p&gt;The reasons for this project are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The bee brain has way less neurons than the brain of rodents (but still in the order of 10^6 neurons!), so understanding how this simple brain works could be a nice step towards understanding more complex brains.&lt;/li&gt;
@@ -34,9 +33,7 @@
       <link>https://open-neuroscience.com/en/post/neurotinker/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>https://open-neuroscience.com/en/post/neurotinker/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://hackaday.io/project/3339-neurons-neurons-neurons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeuroTinker project&lt;/a&gt; is all about hardware emulated neurons. The creators made them in a way that each hardware neuron has excitatory and inhibitory inputs and one output that can be split up to affect dowsntream neurons. They are also cheap enough so that one can build several of them and wire them together to see which properties will emerge in the system. Design files are available on the 
-&lt;a href=&#34;https://github.com/neurotinker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project&amp;rsquo;s GitHub organization&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://hackaday.io/project/3339-neurons-neurons-neurons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NeuroTinker project&lt;/a&gt; is all about hardware emulated neurons. The creators made them in a way that each hardware neuron has excitatory and inhibitory inputs and one output that can be split up to affect dowsntream neurons. They are also cheap enough so that one can build several of them and wire them together to see which properties will emerge in the system. Design files are available on the &lt;a href=&#34;https://github.com/neurotinker&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project&amp;rsquo;s GitHub organization&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
