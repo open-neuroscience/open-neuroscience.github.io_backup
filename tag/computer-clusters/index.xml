@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer clusters | Open Neuroscience</title>
+    <link>https://open-neuroscience.com/tag/computer-clusters/</link>
+      <atom:link href="https://open-neuroscience.com/tag/computer-clusters/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer clusters</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>CC BY SA 4.0</copyright><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://open-neuroscience.com/media/openneuroscience_logo_dark.svg</url>
+      <title>Computer clusters</title>
+      <link>https://open-neuroscience.com/tag/computer-clusters/</link>
+    </image>
+    
+    <item>
+      <title>Computer clusters</title>
+      <link>https://open-neuroscience.com/post/computer_cluster/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://open-neuroscience.com/post/computer_cluster/</guid>
+      <description>&lt;br&gt;
+&lt;p&gt;Here are two projects that use card sized computers as the basic units for computing clusters:&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;http://www.southampton.ac.uk/~sjc/raspberrypi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;64 node cluster&lt;/a&gt;, build using pi’s and lego, built at the University of Southampton.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linux.com/training-tutorials/building-compute-cluster-beaglebone-black/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BeagleBone Black cluster&lt;/a&gt; by &lt;a href=&#34;https://www.linux.com/author/mazdacardinal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dan Ricart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boinc</title>
+      <link>https://open-neuroscience.com/post/boinc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://open-neuroscience.com/post/boinc/</guid>
+      <description>&lt;p&gt;Boinc is a platform for &lt;a href=&#34;http://boinc.berkeley.edu/trac/wiki/VolunteerComputing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;volunteer computing.&lt;/a&gt; Briefly, volunteer computer is a system where computer processor&amp;rsquo;s idle time (those periods where your computer is on, but not being used for anything) is turned into calculation time via a custom written software.&lt;/p&gt;
+&lt;p&gt;This idea got a lot of attention with the &lt;a href=&#34;http://setiathome.ssl.berkeley.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;seti@home&lt;/a&gt; project, where the computers of volunteers were transformed into a sort of supercomputer to analyse radio telescope date.&lt;/p&gt;
+&lt;p&gt;The Boinc project provides a platform where different projects can be created and launched on the &lt;a href=&#34;http://boinc.berkeley.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;platform&amp;rsquo;s website.&lt;/a&gt; Once online, volunteers can decide to which project they want to spare their computer cycles and help crushing numbers. Currently (11/12/14) the platform has about 229,396 active volunteers on 751,864 computers. with a 24-hour average of 8.024 PetaFLOPS. (not bad!)&lt;/p&gt;
+&lt;p&gt;Projects come from universities as well as private sector and range from medicine and mathematics to games.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Parallela</title>
+      <link>https://open-neuroscience.com/post/parallela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://open-neuroscience.com/post/parallela/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.parallella.org/Introduction/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Parallela&lt;/a&gt;, an open source, open access card sized supercomputer, has the mission of bringing parallel computing to the masses by combining multiple RISC processors and very low power consumption. Produced by the &lt;a href=&#34;http://www.adapteva.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adapteva company&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
