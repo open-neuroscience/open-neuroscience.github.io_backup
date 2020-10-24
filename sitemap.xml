@@ -37,16 +37,6 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/authors/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
@@ -622,11 +612,6 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/post/deep_cinac/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url>
@@ -997,27 +982,35 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/agustin-solano/</loc>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/andre-maia-chagas/</loc>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/benjamin-paffhausen/</loc>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/gaspar-herrera/</loc>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/author/</loc>
+    <loc>https://open-neuroscience.com/authors/jj-balesteros/</loc>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/authors/matias-andina/</loc>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/authors/miguel-fernandes/</loc>
   </url>
   
   <url>
@@ -1034,6 +1027,10 @@
   
   <url>
     <loc>https://open-neuroscience.com/post/attys/</loc>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/authors/</loc>
   </url>
   
   <url>
@@ -1066,6 +1063,10 @@
   
   <url>
     <loc>https://open-neuroscience.com/post/computer-vision-and-motion-tracking-software/</loc>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/content/authors/</loc>
   </url>
   
   <url>
