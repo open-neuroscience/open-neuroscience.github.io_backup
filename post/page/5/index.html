@@ -291,7 +291,16 @@
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>Posts | Open Neuroscience</title>
@@ -770,20 +779,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/human-electrophysiology/">Human electrophysiology</a>, <a href="/category/human-neuroscience/">Human Neuroscience</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/mne-python/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -866,20 +917,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/human-neuroscience/">Human Neuroscience</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/nilearn/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -962,20 +1055,62 @@
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/hardware/">Hardware</a>, <a href="/category/benchtop/">Benchtop</a>, <a href="/category/software/">Software</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/a_cartesian_coordinate_robot_for_dispensing_fruit_fly_food/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1059,20 +1194,62 @@ Though chosen for its ease of husbandry, maintaining large numbers of stocks of 
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/behaviour/">Behaviour</a>, <a href="/category/human-electrophysiology-animal-electrophysiology/">Human electrophysiology, Animal electrophysiology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/bonsai/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1156,20 +1333,62 @@ Bonsai has allowed scientists with no previous programming experience to quickly
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/behaviour/">Behaviour</a>, <a href="/category/hardware/">Hardware</a>, <a href="/category/software/">Software</a>, <a href="/category/computers/">Computers</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/ethoscopes/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1254,20 +1473,62 @@ They perform, in real-time, tracking and profiling of behavior by using a superv
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/behaviour/">Behaviour</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/bonvision/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1351,20 +1612,62 @@ BonVision’s key features include:</p>
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/hardware/">Hardware</a>, <a href="/category/microscopes/">Microscopes</a>, <a href="/category/molecular-biology/">Molecular biology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/poseidon/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1447,20 +1750,62 @@ BonVision’s key features include:</p>
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/behaviour/">Behaviour</a>, <a href="/category/data-analysis/">Data Analysis</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/deeplabstream/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1543,20 +1888,62 @@ BonVision’s key features include:</p>
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/hardware/">Hardware</a>, <a href="/category/simulations/">Simulations</a>, <a href="/category/optogenetics/">Optogenetics</a>, <a href="/category/behaviour-microscopes-calcium-imaging-fluorescence/">Behaviour, Microscopes, Calcium Imaging, Fluorescence</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/led_zappelin/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1639,20 +2026,62 @@ BonVision’s key features include:</p>
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/animal-electrophysiology/">Animal electrophysiology</a>, <a href="/category/human-electrophysiology/">Human electrophysiology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/spikeinterface/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1798,9 +2227,11 @@ BonVision’s key features include:</p>
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 

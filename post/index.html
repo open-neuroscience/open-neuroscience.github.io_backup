@@ -291,7 +291,16 @@
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>Posts | Open Neuroscience</title>
@@ -770,20 +779,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/computational-neuroscience/">Computational Neuroscience</a>, <a href="/category/other/">Other</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -866,20 +917,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/human-neuroscience/">Human Neuroscience</a>, <a href="/category/hardware/">Hardware</a>, <a href="/category/human-electrophysiology/">Human electrophysiology</a>, <a href="/category/software/">Software</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/emotibit/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -965,20 +1058,62 @@ Project Video https://www.youtube.com/watch?v=jbcL2jzyWj4&amp;ab_channel=EmotiBi
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software-behaviour-hardware/">Software, Behaviour, Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/the_home-cage_automated_skilled_reaching_apparatus_hasra_individualized_training_of_group_housed_mice_in_a_single_pellet_reaching_task/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1061,20 +1196,62 @@ Project Video https://www.youtube.com/watch?v=jbcL2jzyWj4&amp;ab_channel=EmotiBi
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/brainsmash/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1157,20 +1334,62 @@ Project Video https://www.youtube.com/watch?v=jbcL2jzyWj4&amp;ab_channel=EmotiBi
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/behaviour/">Behaviour</a>, <a href="/category/hardware/">Hardware</a>, <a href="/category/calcium-imaging/">Calcium Imaging</a>, <a href="/category/animal-electrophysiology/">Animal electrophysiology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/mouse_vr/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1255,20 +1474,62 @@ The screen assembly: a laser projector projects onto a parabolic screen surround
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/simulations/">Simulations</a>, <a href="/category/computational-neuroscience/">Computational Neuroscience</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/psychrnn_an_accessible_and_flexible_python_package_for_training_recurrent_neural_network_models_on_cognitive_tasks/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1352,20 +1613,62 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/behaviour/">Behaviour</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/computers/">Computers</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/fasttrack/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1448,20 +1751,62 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/data-repositories/">Data Repositories</a>, <a href="/category/tutorials-learning-portals/">Tutorials &amp; learning portals</a>, <a href="/category/human-neuroscience/">Human Neuroscience</a>, <a href="/category/other/">Other</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/incf_knowledgespace/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1544,20 +1889,62 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/tutorials-learning-portals/">Tutorials &amp; learning portals</a>, <a href="/category/computational-neuroscience/">Computational Neuroscience</a>, <a href="/category/human-neuroscience/">Human Neuroscience</a>, <a href="/category/human-electrophysiology/">Human electrophysiology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/incf_neurostars/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1640,20 +2027,62 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/tutorials-learning-portals/">Tutorials &amp; learning portals</a>, <a href="/category/human-neuroscience/">Human Neuroscience</a>, <a href="/category/human-electrophysiology/">Human electrophysiology</a>, <a href="/category/data-analysis/">Data Analysis</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/incf_portal/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1798,9 +2227,11 @@ INCF advances data reuse and reproducibility in brain research by coordinating t
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 

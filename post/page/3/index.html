@@ -291,7 +291,16 @@
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>Posts | Open Neuroscience</title>
@@ -770,20 +779,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/jasp/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -866,20 +917,62 @@
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/hardware/">Hardware</a>, <a href="/category/behaviour/">Behaviour</a>, <a href="/category/benchtop/">Benchtop</a>, <a href="/category/other/">Other</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/pidose/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -962,20 +1055,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/behaviour/">Behaviour</a>, <a href="/category/hardware/">Hardware</a>, <a href="/category/software/">Software</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/pycontrol/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1059,20 +1194,62 @@ pyControl makes it easy to program complex behavioural tasks using a clean, intu
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/hardware/">Hardware</a>, <a href="/category/software/">Software</a>, <a href="/category/fluorescence/">Fluorescence</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/pyphotometry/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1156,20 +1333,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/behaviour/">Behaviour</a>, <a href="/category/software/">Software</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/sleap/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1252,20 +1471,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/data-repositories/">Data Repositories</a>, <a href="/category/computers/">Computers</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/neuroimaging_informatics_tools_and_resources_collaboratory_nitrc/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1348,20 +1609,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/optogenetics/">Optogenetics</a>, <a href="/category/behaviour/">Behaviour</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/pivr/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1444,20 +1747,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/software/">Software</a>, <a href="/category/tutorials-learning-portals/">Tutorials &amp; learning portals</a>, <a href="/category/data-repositories/">Data Repositories</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/repronim_a_center_for_reproducible_neuroimaging_computation/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1540,20 +1885,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/behaviour/">Behaviour</a>, <a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/software/">Software</a>, <a href="/category/data-repositories/">Data Repositories</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/simple_behavioral_analysis_simba/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1636,20 +2023,62 @@ pyPhotometry supports data aquisition from two analog and two digital inputs, an
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/data-analysis/">Data Analysis</a>, <a href="/category/computational-neuroscience/">Computational Neuroscience</a>, <a href="/category/calcium-imaging/">Calcium Imaging</a>, <a href="/category/animal-electrophysiology/">Animal electrophysiology</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/datajoint/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1796,9 +2225,11 @@ DataJoint allows creating and sharing computational data pipelines, which are de
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 

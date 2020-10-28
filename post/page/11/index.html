@@ -291,7 +291,16 @@
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>Posts | Open Neuroscience</title>
@@ -770,20 +779,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/prosthetics/">Prosthetics</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/super_releaser/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -866,20 +917,62 @@
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/benchtop/">Benchtop</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/5_dollar_pcr/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -963,20 +1056,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/prosthetics/">Prosthetics</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/open-bionics/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1059,20 +1194,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/prosthetics-and-robotics/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1150,20 +1327,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/animal-ephys/">Animal ephys</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/backyard_brains/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1247,20 +1466,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/microscope/">Microscope</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/10_smartphone_microscope/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1343,20 +1604,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/database/">Database</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/addgene/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1439,20 +1742,62 @@ he created a very interesting design for the PCR machine. Instead of using eppen
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/database/">Database</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/allen-brain-map/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1537,20 +1882,62 @@ It is a data portal that encompasses different projects:
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/human-ephys/">Human ephys</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/attys/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1633,20 +2020,62 @@ It is a data portal that encompasses different projects:
   <span class="article-reading-time">
     1 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/visual/">Visual</a>, <a href="/category/hardware/">Hardware</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/bb_led_matrix/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -1792,9 +2221,11 @@ It is a data portal that encompasses different projects:
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 

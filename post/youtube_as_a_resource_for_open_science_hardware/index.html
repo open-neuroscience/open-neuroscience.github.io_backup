@@ -330,7 +330,16 @@
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>YouTube as a resource for Open Science Hardware | Open Neuroscience</title>
@@ -772,20 +781,62 @@
   <span class="article-reading-time">
     5 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/learning/">Learning</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/youtube_as_a_resource_for_open_science_hardware/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
     
 
@@ -905,6 +956,25 @@
   <a class="badge badge-light" href="/tag/learning/">Learning</a>
   
 </div>
+
+
+
+<div class="subscribe-box" aria-hidden="true">
+	<center>
+		<h3 style="color: #555;">
+			Found this tool useful?
+		</h3>
+		Leave a like to let everyone know!
+	</center>
+  <ul class="subscribe">
+     
+	  <li><applause-button style="width: 58px; height: 58px;" url="https://open-neuroscience.com/post/youtube_as_a_resource_for_open_science_hardware/" /></li>
+  </ul>
+  <center> Feel free to share this tool via the below methods </center>
+</div>
+
+
+
 
 
 
@@ -1195,9 +1265,11 @@
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 

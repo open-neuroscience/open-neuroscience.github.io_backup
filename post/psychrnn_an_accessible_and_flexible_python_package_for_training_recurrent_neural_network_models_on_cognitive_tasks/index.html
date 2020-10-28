@@ -338,7 +338,16 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   
 
 
-  <script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+  <head>
+  
+  <link rel="stylesheet" href="applause-button.css" />
+  <script src="applause-button.js"></script>
+
+
+<script async defer data-domain="open-neuroscience.com" src="https://plausible.io/js/plausible.js"></script>
+
+
+</head>
 
 
   <title>PsychRNN: An Accessible and Flexible Python Package for Training Recurrent Neural Network Models on Cognitive Tasks | Open Neuroscience</title>
@@ -796,20 +805,62 @@ Despite growing interest in RNNs as models of brain function, this approach pose
   <span class="article-reading-time">
     2 min read
   </span>
-  
+     
 
   
   
-  
-
-  
-  
+    
   <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/software/">Software</a>, <a href="/category/simulations/">Simulations</a>, <a href="/category/computational-neuroscience/">Computational Neuroscience</a></span>
+	  <span class="clap" data-url="https://open-neuroscience.com/post/psychrnn_an_accessible_and_flexible_python_package_for_training_recurrent_neural_network_models_on_cognitive_tasks/">	  
+		 
+			 👏<span class="count"></span>
+		 </span>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script>
+		 
+			 function loadClapCount() {
+			     
+			     var elements = jQuery(".clap").toArray();
+			    
+			     var urls = elements.map(function(el) {
+			         return el.getAttribute("data-url");
+			     });
+			     
+			     jQuery.ajax({
+			         url: "https://api.applause-button.com/get-multiple",
+			         method: "POST",
+			         data: JSON.stringify(urls),
+			         headers: {
+			             "Content-Type": "text/plain"
+			         },
+			         contentType: "text/plain"
+			     }).done(function(claps) {
+			        
+			         jQuery(".clap").each(function() {
+			             var elem = jQuery(this),
+			                 url = elem.attr("data-url").replace(/^https?:\/\//, "");
+			             var clapCount = claps.find(function(c) { return c.url === url; });
+			             if (clapCount && clapCount.claps > 0) {
+			                 elem.css("display", "initial")
+			                     .find(".count")
+			                     .html(clapCount.claps);
+			             } else {
+		                 elem.css("display", "initial")
+		                     .find(".count")
+		                     .html(0);
+			             }
+			         });
+			     });
+			 }
+			 loadClapCount();
+		  </script>			  
   
 
-</div>
+  
+  
+  
+
+  </div>
 
   
 
@@ -888,6 +939,25 @@ Jasmine Stone</p>
   <a class="badge badge-light" href="/tag/computational-neuroscience/">Computational Neuroscience</a>
   
 </div>
+
+
+
+<div class="subscribe-box" aria-hidden="true">
+	<center>
+		<h3 style="color: #555;">
+			Found this tool useful?
+		</h3>
+		Leave a like to let everyone know!
+	</center>
+  <ul class="subscribe">
+     
+	  <li><applause-button style="width: 58px; height: 58px;" url="https://open-neuroscience.com/post/psychrnn_an_accessible_and_flexible_python_package_for_training_recurrent_neural_network_models_on_cognitive_tasks/" /></li>
+  </ul>
+  <center> Feel free to share this tool via the below methods </center>
+</div>
+
+
+
 
 
 
@@ -1124,9 +1194,11 @@ Jasmine Stone</p>
       
     
     
+      
     
     
-    <script src="/js/wowchemy.min.4c2bca31150ce93c5a5e43b8a50f22fd.js"></script>
+    
+    <script src="/js/wowchemy.min.a184847f5de712f1f8597036386ae9ab.js"></script>
 
     
 
