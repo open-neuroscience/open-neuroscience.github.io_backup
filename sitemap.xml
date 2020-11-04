@@ -37,22 +37,77 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <loc>https://open-neuroscience.com/categories/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/categories/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <loc>https://open-neuroscience.com/post/computational_cognitive_neuroscience_4th_ed/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/tag/computational-neuroscience/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/category/computational-neuroscience/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/emergent_neural_network_simulation_software/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/human-neuroscience/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/human-neuroscience/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/simulations/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/simulations/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/software/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/software/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tags/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/uncertainpy_a_python_toolbox_for_uncertainty_quantification_and_sensitivity_analysis_tailored_towards_computational_neuroscience/</loc>
+    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -92,16 +147,6 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/tag/human-neuroscience/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/human-neuroscience/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/tag/other/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
@@ -112,32 +157,12 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/post/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/software/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/software/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/tag/software-behaviour-hardware/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/category/software-behaviour-hardware/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tags/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,16 +213,6 @@
   
   <url>
     <loc>https://open-neuroscience.com/post/psychrnn_an_accessible_and_flexible_python_package_for_training_recurrent_neural_network_models_on_cognitive_tasks/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/simulations/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/simulations/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url>
   
