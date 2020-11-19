@@ -37,18 +37,158 @@
   </url>
   
   <url>
+    <loc>https://open-neuroscience.com/tag/behaviour/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/behaviour/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/benchtop/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/benchtop/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://open-neuroscience.com/categories/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/tag/computational-neuroscience/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/category/computational-neuroscience/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/computer_controlled_dog_treat_dispenser/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/computers/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/computers/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/data-analysis/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/data-analysis/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/erplab/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/hardware/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/hardware/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/human-electrophysiology/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/human-electrophysiology/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/human-neuroscience/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/human-neuroscience/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/other/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/other/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/pocketpcr___pocket_size_usb_powered_pcr_thermo_cycler/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/software/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/software/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tag/software-behaviour-hardware/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/category/software-behaviour-hardware/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/tags/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/tgac_browser/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://open-neuroscience.com/post/the_home_cage_automated_skilled_reaching_apparatus_hasra_individualized_training_of_group_housed_mice_in_a_single_pellet_reaching_task/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -67,32 +207,12 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/post/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/tag/simulations/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://open-neuroscience.com/category/simulations/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/software/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/software/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tags/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -112,82 +232,12 @@
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/tag/human-neuroscience/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/human-neuroscience/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/post/uncertainpy_a_python_toolbox_for_uncertainty_quantification_and_sensitivity_analysis_tailored_towards_computational_neuroscience/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://open-neuroscience.com/post/bigpint_bioconductor_package_that_makes_big__rna_seq__data_pint_sized/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/data-analysis/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/data-analysis/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://open-neuroscience.com/post/emotibit/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/hardware/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/hardware/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/human-electrophysiology/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/human-electrophysiology/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/other/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/other/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/software-behaviour-hardware/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/software-behaviour-hardware/</loc>
-    <lastmod>2020-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/post/the_home-cage_automated_skilled_reaching_apparatus_hasra_individualized_training_of_group_housed_mice_in_a_single_pellet_reaching_task/</loc>
     <lastmod>2020-10-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -203,16 +253,6 @@
   
   <url>
     <loc>https://open-neuroscience.com/category/animal-electrophysiology/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/behaviour/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/behaviour/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -234,16 +274,6 @@
   <url>
     <loc>https://open-neuroscience.com/post/psychrnn_an_accessible_and_flexible_python_package_for_training_recurrent_neural_network_models_on_cognitive_tasks/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/computers/</loc>
-    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/computers/</loc>
-    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -379,16 +409,6 @@
   <url>
     <loc>https://open-neuroscience.com/post/wholebrain/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/tag/benchtop/</loc>
-    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://open-neuroscience.com/category/benchtop/</loc>
-    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
